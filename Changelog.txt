@@ -1,0 +1,221 @@
+Changelog
+PenguinJump Created on Unity 5.3/5.4
+
+
+------------Google Ads----------------------
+banner ad ca-app-pub-0393871832180120/8255450904
+video ca-app-pub-0393871832180120/9732184107 (currently not active)
+-----------------------------------------------
+		
+--------------Asset Sources--------------------------------
+Wallpaper: http://opengameart.org/content/lpc-colorful-sand-deep-water
+Test Platforms: http://opengameart.org/content/simple-svg-ice-platformer-tiles-16x16-16x96-96x16
+Character: http://opengameart.org/content/small-tux-walk-low-bit
+Platforms/spikes/Flags: http://opengameart.org/content/platformer-art-deluxe
+wallpaper for maze: https://www.vecteezy.com/vector-art/99535-free-polar-bear-vector
+Background Music: http://www.bensound.com/royalty-free-music/2
+-----------------------------------------------------------------
+
+
+
+goals in order or priotity
+---------------------
+create music on off button
+finish maze level
+replace music with better music
+replace background
+fix ads
+add new levels. 
+
+
+version .90 11/19/16
+-------------------------------
+Final School Release:
+Game works
+Added credits scene, will be removed for final version
+Added couple more platforms for maze level
+added stuff to readme
+game has been built as a apk and as a exe
+
+
+
+version .882 10/27/16
+-------------------------------
+fixed bug created when added ios controls. jump now works on note 7 again
+
+version .88 10/27/16
+-----------------------------
+added background music that stays across scenes. 
+BUG: jump now fully doesnt work on note 7.
+
+
+version .87 
+---------------------------
+not built yet.
+but fixed platform 4x1 had object destroyer enabled in maze level
+
+
+version .86 10/13/16
+----------------------------
+removed 1x1 platform in object pooler for endless mode, makes game easier. 
+added instructions to main menu. mainly for schoolwise stuff. might remove final version for google play
+
+
+version .85 10/11/16
+----------------------------
+added a background
+worked on maze
+note 7 has been recalled, testing still being done on note 4 and exe aswell as webgl. 
+testing a icon for the game. will update later. art skills arent that great with paint
+
+version .801 9/27/16
+----------------------------
+unity has been upgraded to Unity 5.4.1f1 
+so far nothing seems broke. will do further testing
+
+
+version .80 testing 9/27/16
+-----------------------------
+game runs smooth on windows, and galaxy s7, and note 4.
+note 7 has glitch where first jump does not work until first death.
+
+
+version .80 9/24/16
+------------------------
+changed a couple settings 
+just recompiling to double check that i have the same version that's on unity.
+added waving flag to maze.
+added win menu
+
+version .75 9/20/16
+------------------------
+double jump has been back for a couple version before. 
+havent checked which one yet.
+maze level background removed. probably going to choose a different one
+spikes have been added
+maze level map has been improved. not completed though
+added water to maze level
+adjusted jump levels on both endless and maze
+
+version .71 9/20/16
+----------------------
+ads should now be working
+double jump glitch is back
+
+
+version .70 9/20/16
+--------------------
+added maze level
+maze isnt built yet
+some functions need to be removed from scene
+future note: double check for errors
+double check ads.
+background was offset for maze to avoid confusion
+
+version .67 9/20/16
+----------------------
+pause menu added
+added a random background for now
+currently lots of admanagers are being created rather than reusing the same one
+
+version .66 9/19/16
+-----------------------
+ads have been activated
+
+version .65 9/19/16
+----------------------
+added death menu
+
+
+version .63 9/19/16
+----------------------
+fixed aspect ratio issue in scores
+
+
+version .62 9/19/16
+------------------------
+fixed aspect ratio issue in main menu
+
+
+version .61 9/19/16
+-----------------------
+changed back to free aspect ratio because font was too small on a galaxy s7
+
+version .60  9/19/16
+----------------------
+changed aspect ratio to 16:9
+added scoring system
+*****known bug****** score keeps increasing in case player gets stuck in platform
+******fixed double jump bug from version .46********
+added real double jump
+added a main menu
+
+version .55  9/19/16
+-----------------------
+Ad Manager has been added. currently set as test. not active with real ads
+
+
+version .50 9/19/16
+-----------------------
+speed increments have been addeed after certain milestone
+added different platforms into object pooler. still undecided if they will stay in final release
+****fixed previous known bug*** by adding ground check to player rather than full body
+added player death
+added game restart
+restart works correctly by restarting all values and platforms
+
+****known bug***** player can jump in the air if he doesnt jump and falls of a platform
+
+
+version .46 9/18/16
+-----------------------
+portrait mode has been removed. it can work for future if player is adjusted into camera frame
+enabled floating platform and half platform just to preview them
+moved catcher to better demonstrate game with people
+adjusted camera and height of platforms. 
+**********known bug**********: player can jump when under platforms and on side
+
+
+Version .45  9/18/16
+-----------------------
+messing back and forth with Object Pooling
+added different sized platforms
+3x1 5x1 4x1 1x1
+added floating platform 3x1 4x1 5x1 (not enabled)
+added half platform	3x1 4x1 5x1 (not enabled)
+added randomizer to platform generator
+added a catcher so player never dies
+added randomizing platforms in the y direction aswell
+improved jump mechanics 
+adjusted player speed and jump for more fluid gameplay
+enabled portrait just for testing on phones
+
+
+
+Version .30  9/16/16
+------------------------
+camera now follows player
+added platforms - still havent decided which one to stick with. 
+added friction to avoid sticking to walls
+added platform generator.
+added platform destroyer.
+added randomness to platform generator
+
+
+
+Version .2  9/15/16
+-------------------
+autorotate has been added. landscape only
+penguin running animation has been added
+added a cube to prevent penguin from falling
+added a coin. does nothing atm.
+
+
+
+
+Version .1 9/15/16
+-----------
+Test build-First Build
+Penguin player runs on base ground
+penguin can jump.
+Player falls off, nothing else in this build
